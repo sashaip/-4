@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.blocks{
+    background-color:#6dadbf;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block{
+    width: 230px;
+    height: 200px;
+    margin-right: 20px;
+}
+footer{
+    background-color:black;
+}
